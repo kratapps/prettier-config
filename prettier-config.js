@@ -10,10 +10,18 @@ module.exports = {
             }
         },
         {
-            files: "**/*.{js,json}",
+            files: "**/*.js",
             options: {
                 printWidth: 140,
                 tabWidth: 4,
+                singleQuote: true
+            }
+        },
+        {
+            files: "**/*.json",
+            options: {
+                printWidth: 140,
+                tabWidth: 2,
                 singleQuote: true
             }
         },

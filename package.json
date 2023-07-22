@@ -1,6 +1,6 @@
 {
     "name": "@kratapps/prettier-config",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "The prettier config for Kratapps projects",
     "keywords": [
         "kratapps",

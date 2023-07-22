@@ -1,0 +1,2 @@
+release:
+	npm publish

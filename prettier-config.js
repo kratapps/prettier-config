@@ -10,7 +10,7 @@ module.exports = {
             }
         },
         {
-            files: "**/*.js",
+            files: "**/*.{js,json}",
             options: {
                 printWidth: 140,
                 tabWidth: 4,
@@ -39,6 +39,12 @@ module.exports = {
                 parser: "html",
                 printWidth: 140,
                 tabWidth: 4
+            }
+        },
+        {
+            "files": "**/*.xml",
+            "options": {
+                "xmlSelfClosingSpace": false
             }
         }
     ]

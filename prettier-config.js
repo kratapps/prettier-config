@@ -13,6 +13,12 @@ module.exports = {
     "importOrderSortSpecifiers": true,
     "overrides": [
         {
+            "files": "**/*.css",
+            "options": {
+                "tabWidth": 4
+            }
+        },
+        {
             "files": "**/*.ts",
             "options": {
                 "printWidth": 140,

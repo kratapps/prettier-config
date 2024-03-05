@@ -22,6 +22,7 @@ module.exports = {
         {
             "files": "**/*.ts",
             "options": {
+                "parser": "babel-ts",
                 "printWidth": 140,
                 "tabWidth": 4,
                 "singleQuote": true
@@ -30,6 +31,7 @@ module.exports = {
         {
             "files": "**/*.tsx",
             "options": {
+                "parser": "babel-ts",
                 "printWidth": 140,
                 "tabWidth": 4,
                 "singleQuote": true

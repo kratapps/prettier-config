@@ -1,4 +1,5 @@
 module.exports = {
+    "plugins": ['@trivago/prettier-plugin-sort-imports'],
     "trailingComma": "none",
     "importOrder": [
         "^lwc$",
@@ -20,6 +21,14 @@ module.exports = {
         },
         {
             "files": "**/*.ts",
+            "options": {
+                "printWidth": 140,
+                "tabWidth": 4,
+                "singleQuote": true
+            }
+        },
+        {
+            "files": "**/*.tsx",
             "options": {
                 "printWidth": 140,
                 "tabWidth": 4,
